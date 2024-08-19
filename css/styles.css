@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: black;
+    background: #0c0c0c;
     color: white;
     font-family: 'Helvetica Neue Medium', sans-serif;
     text-rendering: geometricPrecision;
@@ -114,6 +114,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    overflow: hidden;
 }
 .section4, .section5 {
     position: relative;
@@ -124,6 +125,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    overflow: hidden;
 }
 .layer {
     position: absolute;
