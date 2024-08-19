@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="assets/fonts/style.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
     <div class="container">
         <header class="header">
@@ -70,8 +72,30 @@
             </section>
         </div>
         <footer class="footer">
-            <span>&copy; 2001 Daft Punk, all rights reserved. <br>  A tribute site by Torrober.</span>
+            <span>&copy; 2001 Daft Punk, all rights reserved. <br> A tribute site by Torrober.</span>
         </footer>
     </div>
+    <div class="modal" style="display: none;">
+        <!-- Modal content -->
+        <div class="modal-inside">
+            <div class="title-bar">
+                <div class="title-bar-text">
+                    WEB-TITLE
+                </div>
+                <div class="title-bar-controls">
+                    <button aria-label="Close">&times;</button>
+                </div>
+            </div>
+            <div class="modal-content">
+                <iframe width="100%" height="315" style="visibility: hidden;" src=""
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+
+    </div>
+    <script src="js/index.js"></script>
 </body>
+
 </html>
