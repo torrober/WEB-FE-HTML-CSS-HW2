@@ -202,3 +202,19 @@ body {
     font-family: "Helvetica Neue Condensed Bold";
     text-transform: uppercase;
 }
+.content-contact {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 2fr 1fr;
+}
+.content-contact>section>form>input, .content-contact>section>form>textarea {
+    width: 100%;
+    background-color: #fff;
+    box-shadow: inset -1px -1px #fff, inset 1px 1px grey, inset -2px -2px #dfdfdf, inset 2px 2px #0a0a0a;
+    box-sizing: border-box;
+    padding: 3px 4px;
+}
+.content-contact>section>form>button {
+    background: silver;
+    box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf;
+}
