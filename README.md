@@ -1,6 +1,6 @@
 ## Discovery - Daft Punk site
 Homework for frontend class 2024-30.
-Inspired by y2k design and one of the most inluential albums in my life.
+Inspired by y2k design and one of the most influential albums in my life.
 
 Contains all information about Daft Punk Discovery album.
 
