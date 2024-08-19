@@ -139,6 +139,10 @@ body {
     font-size: 28px;
     line-height: 20px;
 }
+.layer a {
+    text-decoration: none;
+    color: white;
+}
 .aside-header {
     background: #0c0c0c;
     text-align: center;
@@ -187,4 +191,14 @@ body {
 .title-bar-controls > button {
     background: silver;
     box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf;
+}
+.external-page {
+    background: url("../assets/img/back.jpg") !important;
+    display: block;
+    margin: 10px;
+    padding: 10px;
+}
+.external-page h1 {
+    font-family: "Helvetica Neue Condensed Bold";
+    text-transform: uppercase;
 }
