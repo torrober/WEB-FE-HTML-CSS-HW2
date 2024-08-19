@@ -17,15 +17,17 @@
             <p>
                 Daft Punk's Discovery is a groundbreaking album that blends the duo's signature house music with a wide
                 array of
-                genres, including disco, funk, rock, and electronic pop. Released in 2001, the album marked a significant
-                evolution in Daft Punk's sound, introducing a more melodic and accessible approach compared to their earlier
+                genres, including disco, funk, rock, and electronic pop. Released in 2001, the album marked a
+                significant
+                evolution in Daft Punk's sound, introducing a more melodic and accessible approach compared to their
+                earlier
                 work. Discovery is celebrated for its innovative use of samples, vocoder-heavy vocals, and its nostalgic
                 nods to
                 1970s and 1980s music.
             </p>
         </section>
         <section>
-            <form>
+            <form id="contact-form">
                 <p>Name</p>
                 <input type="text">
                 <p>E-mail</p>
@@ -39,6 +41,11 @@
             </form>
         </section>
     </div>
+    <script>
+        document.querySelector("#contact-form").addEventListener("submit", (e) => {
+            e.preventDefault();
+        })
+    </script>
 </body>
 
 </html>
